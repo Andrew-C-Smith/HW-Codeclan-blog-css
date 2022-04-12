@@ -1,0 +1,29 @@
+
+
+@media (min-width: 720px) {
+    body {
+      background-color: hotpink;
+    }
+   
+  }
+
+
+
+@media (min-width: 720px) {
+        body > main > article > footer {       /* NEW */
+          flex-direction: row;                 /* NEW */
+        }                                      /* NEW */
+      
+        body > main > article > footer > img { /* NEW */
+          margin-right: 16px;                  /* NEW */
+        }                                      /* NEW */
+      
+        #footer-container {
+          flex-direction: row;
+        }
+      
+        #footer-container > section {
+          margin-right: 32px;
+        }
+      }
+
